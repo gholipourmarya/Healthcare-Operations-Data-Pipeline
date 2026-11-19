@@ -1,0 +1,14 @@
+[
+  {
+    "group": "Cardiology",
+    "records": 2,
+    "total_value": 2.0,
+    "flags": 0
+  },
+  {
+    "group": "Neurology",
+    "records": 1,
+    "total_value": 1.0,
+    "flags": 1
+  }
+]

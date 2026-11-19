@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: raw
+    tables:
+      - name: appointments
+        columns:
+          - name: appointment_id
+            data_tests: [not_null]
+          - name: status
+            data_tests:
+              - accepted_values:
+                  values: [completed, cancelled, scheduled]
+      - name: rejected_events
+        columns:
+          - name: rejection_reason
+            data_tests: [not_null]
+
+models:
+  - name: department_metrics
+    columns:
+      - name: department
+        data_tests: [unique, not_null]
+  - name: rejection_metrics
+    columns:
+      - name: rejection_reason
+        data_tests: [unique, not_null]

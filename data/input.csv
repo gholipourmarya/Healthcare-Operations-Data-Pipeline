@@ -1,0 +1,5 @@
+appointment_id,patient_id,department,status,lab_tests
+A1,P001,Cardiology,completed,2
+A2,P002,Neurology,cancelled,0
+A3,P003,Cardiology,completed,1
+A4,P004,Oncology,unknown,2

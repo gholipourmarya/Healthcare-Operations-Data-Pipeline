@@ -1,0 +1,12 @@
+[
+  {
+    "row": {
+      "appointment_id": "A4",
+      "patient_id": "P004",
+      "department": "Oncology",
+      "status": "unknown",
+      "lab_tests": "2"
+    },
+    "reason": "Invalid row: invalid appointment"
+  }
+]

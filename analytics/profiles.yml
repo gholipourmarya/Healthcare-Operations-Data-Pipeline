@@ -1,0 +1,12 @@
+healthcare_operations:
+  target: local
+  outputs:
+    local:
+      type: postgres
+      host: "{{ env_var('DBT_HOST') }}"
+      port: 5432
+      user: warehouse
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      dbname: healthcare
+      schema: analytics
+      threads: 2

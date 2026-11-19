@@ -1,0 +1,10 @@
+name: healthcare_operations
+version: "1.0.0"
+config-version: 2
+profile: healthcare_operations
+model-paths: ["models"]
+models:
+  healthcare_operations:
+    +materialized: table
+    +grants:
+      select: [grafana_reader]

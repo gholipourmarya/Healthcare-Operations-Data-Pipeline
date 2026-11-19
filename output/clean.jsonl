@@ -1,0 +1,3 @@
+{"appointment_id": "A1", "patient_id": "P001", "department": "Cardiology", "status": "completed", "lab_tests": "2", "value": 1.0, "flag": 0}
+{"appointment_id": "A2", "patient_id": "P002", "department": "Neurology", "status": "cancelled", "lab_tests": "0", "value": 1.0, "flag": 1}
+{"appointment_id": "A3", "patient_id": "P003", "department": "Cardiology", "status": "completed", "lab_tests": "1", "value": 1.0, "flag": 0}

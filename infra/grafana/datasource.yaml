@@ -1,0 +1,17 @@
+apiVersion: 1
+
+datasources:
+  - name: Healthcare PostgreSQL
+    uid: healthcare-postgres
+    type: grafana-postgresql-datasource
+    access: proxy
+    url: postgres:5432
+    user: grafana_reader
+    isDefault: true
+    editable: false
+    secureJsonData:
+      password: grafana_reader
+    jsonData:
+      database: healthcare
+      sslmode: disable
+      postgresVersion: 1600
